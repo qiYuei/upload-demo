@@ -3,7 +3,6 @@ const Router = require("@koa/router");
 const router = new Router();
 const fse = require("fs-extra");
 const path = require("path");
-const concat = require("concat-files");
 router.prefix("/admin");
 
 const SIZE = 1024 * 1024 * 2; // 每次切片大小
